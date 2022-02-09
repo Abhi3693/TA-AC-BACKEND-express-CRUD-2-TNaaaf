@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="/stylesheets/addArticle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <a href="/"><span class="logo">Blog</span> </a>
+            </div>
+            <div>
+                <button class="goToUser"><a href="/articles/<%=article._id%>">Back</a></button>
+            </div>
+        </div>
+        <form action="/articles/<%= article._id%>/edit" method="POST">
+            <h1>Update Article Data</h1>
+            <input type="text" name="title" placeholder="Enter Your Name" value="<%= article.title%>">
+            <input type="text" name="author" placeholder="Enter Your author" value="<%= article.author%>">
+            <textarea name="description" id="" cols="30" rows="10" placeholder="Enter Your bio"><%= article.description%></textarea>
+            <input type="text" name="tags" placeholder="Enter Your tags" value="<%= article.tags%>">
+            <button type="submit">Update Article</button>
+        </form>
+    </div>
+</body>
+</html>    

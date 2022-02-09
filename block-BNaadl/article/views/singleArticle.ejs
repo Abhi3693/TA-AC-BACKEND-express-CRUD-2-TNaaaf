@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/singleArticle.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="/"><span class="logo">Blog</span> </a>
+        </div>
+        <div>
+            <button class="goToUser"><a href="/articles/new">Add Article</a></button>
+        </div>
+    </div>
+    <h1>Article Info</h1>
+    <div class="container">
+        <h2>Title: <%= article.title %></h2>
+        <h3>Author: <%= article.author %></h3>
+        <ul>
+            Tags: 
+            <% article.tags.join().split(",").forEach((hobby)=>{ %>
+                <li><%= hobby%>,</li>
+            <% }) %>
+        </ul>
+        <p>Description: <%= article.description %></p>
+        <div class="Like_dislikeHolder">
+            <div>
+                <h3 class="likesCount"> <%= article.likes %></h3>
+                <div><a href="/articles/<%= article._id %>/like" class="btn-like"><i class="ri-thumb-up-fill"></i></a></div>
+            </div>
+            <div>
+                <h3 class="disLikesCount"> <%= article.disLikes %></h3>
+                <div><a href="/articles/<%= article._id %>/disLike" class="btn-disLike"><i class="ri-thumb-down-fill"></i></i></a></div>
+            </div>
+        </div>
+        <div class="btnHolder">
+            <div class="btn"><a href="/articles">Go To all Articles</a></div>
+            <div class="btn"><a href="/articles/<%= article._id %>/edit">Edit Article</a></div>
+            <div class="btn"><a href="/articles/<%= article._id %>/delete">Delete Article</a></div>
+        </div>
+    </div>
+</body>
+</html>   
