@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="/stylesheets/articles.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="/"><span class="logo">Blog</span> </a>
+        </div>
+        <div>
+            <button class="goToUser"><a href="/articles/new">Add Article</a></button>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <h1>Listing Articles</h1>
+            <div class="allUsers">
+
+                    <% articles.forEach((article)=>{ %>
+                    <div class="userHolder">
+                        <h2>Title: <%= article.title %></h2>
+                    
+                        <div><a class="readMore" href="/articles/<%= article._id %> ">Read More</a></div>
+                    </div>
+                     <% }) %>
+
+            </div>
+
+        </section>
+    </div>
+</body>
+</html>  
