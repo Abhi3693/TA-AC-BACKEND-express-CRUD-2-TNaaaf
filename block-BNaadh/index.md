@@ -3,7 +3,7 @@ writeCode
 Q. write express generator command with varying options to generate express app with following features:
 
 - using ejs as template engine
-express --view=ejs sample
+express --view=ejs sample,
 
 - no views for express application
 express --view=--no-views sample-2
