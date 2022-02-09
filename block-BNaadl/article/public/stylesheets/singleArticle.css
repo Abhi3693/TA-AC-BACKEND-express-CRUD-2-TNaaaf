@@ -1,0 +1,92 @@
+.btn{
+    padding: 10px 20px;
+    background-color: gray;
+    border: 2px solid rgb(15, 77, 152);
+    border-radius: 10px;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: lightgray;
+}
+.container{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}  
+textarea{
+    width: 100%;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 186, 237);
+}
+h1{
+    color: rgb(40, 40, 201);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: lightgray;
+}
+.logo{
+    color: rgb(44, 44, 179);
+    font-size: 50px;
+    margin-left: 50px;
+}
+h2{
+    color: crimson;
+}
+.btnHolder{
+    display: flex;
+    justify-content: space-between;
+} 
+.goToUser{
+    margin-right: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid rgb(99, 11, 11);
+    padding: 5px 20px;
+}
+ul{
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    color: gray;
+    font-size: 22px;
+} 
+.likesCount{
+    color: green;
+}
+.disLikesCount{
+    color: indianred;
+}
+.Like_dislikeHolder{
+    width: 20%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-disLike {
+    background-color: #fff;
+    border: none;
+}
+.btn-like {
+    background-color: #fff;
+    border: none;
+}
+.btn-disLike i{
+    font-size: 50px;
+
+    color: red;
+}
+.btn-like i{
+    font-size: 50px;
+    color: green;
+
+}
