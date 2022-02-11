@@ -1,0 +1,47 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 186, 237);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.logo {
+  color: rgb(44, 44, 179);
+  font-size: 50px;
+  margin-left: 50px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+footer p {
+  font-size: 30px;
+  color: gray;
+}
+.goToUser {
+  margin-right: 50px;
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid rgb(99, 11, 11);
+  padding: 5px 20px;
+}
+textarea {
+  display: block;
+  margin: 50px auto;
+}
+input {
+  display: block;
+  margin: 20px auto;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+}

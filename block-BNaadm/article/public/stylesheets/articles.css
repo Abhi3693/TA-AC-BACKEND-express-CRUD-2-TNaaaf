@@ -1,0 +1,80 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.logo {
+  color: rgb(44, 44, 179);
+  font-size: 50px;
+  margin-left: 50px;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 186, 237);
+}
+.goToUser {
+  margin-right: 50px;
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid rgb(99, 11, 11);
+  padding: 5px 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+section {
+  text-align: center;
+}
+
+h1 {
+  color: lightgray;
+  font-size: 36px;
+  font-weight: 600;
+}
+.allUsers {
+  padding: 20px;
+  background-color: rgb(246, 246, 246);
+  padding: 50px;
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 26px;
+  padding: 5px 10px;
+}
+.readMore {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 15px;
+}
+.userHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+footer p {
+  font-size: 30px;
+  color: gray;
+}
+.title-holder {
+  display: flex;
+  align-items: center;
+}
+h2 {
+  margin-left: 20px;
+  color: #1a74c3;
+}
+h3 {
+  color: #0b8e81;
+}
