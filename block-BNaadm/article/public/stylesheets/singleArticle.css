@@ -1,0 +1,190 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: gray;
+  border: 2px solid rgb(15, 77, 152);
+  border-radius: 10px;
+  width: fit-content;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: lightgray;
+}
+.container {
+  padding: 50px;
+}
+textarea {
+  width: 100%;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 186, 237);
+}
+h1 {
+  color: rgb(40, 40, 201);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: lightgray;
+}
+.logo {
+  color: rgb(44, 44, 179);
+  font-size: 50px;
+  margin-left: 50px;
+}
+h2 {
+  color: crimson;
+}
+.btnHolder {
+  display: flex;
+}
+.btnHolder a {
+  color: black;
+}
+.goToUser {
+  margin-right: 50px;
+  background-color: gray;
+  border-radius: 10px;
+  border: 2px solid rgb(99, 11, 11);
+  padding: 5px 20px;
+}
+ul {
+  font-size: 30px;
+  padding-inline-start: 0%;
+}
+li {
+  list-style: none;
+  font-size: 22px;
+  margin-left: 50px;
+  color: rgb(208, 169, 122);
+}
+.likesCount {
+  color: green;
+}
+.disLikesCount {
+  color: indianred;
+}
+.Like_dislikeHolder {
+  display: flex;
+}
+.btn-disLike {
+  background-color: #fff;
+  border: none;
+}
+.btn-like {
+  background-color: #fff;
+  border: none;
+  margin-right: 20px;
+}
+.btn-disLike i {
+  font-size: 50px;
+
+  color: red;
+}
+.btn-like i {
+  font-size: 50px;
+  color: green;
+}
+.title {
+  color: green;
+  font-size: 50px;
+}
+.author {
+  color: rgb(29, 90, 211);
+  font-size: 26px;
+}
+.tags {
+  color: rgb(29, 90, 211);
+}
+
+.description {
+  font-size: 20px;
+  color: gray;
+}
+.edit {
+  background-color: rgb(27, 149, 201);
+  border: 2px solid lightgray;
+}
+.delete {
+  border: 2px solid lightgray;
+  background-color: rgb(228, 86, 35);
+}
+.all {
+  border: 2px solid lightgray;
+  background-color: rgb(18, 169, 134);
+  color: black;
+}
+#comment {
+  width: 40%;
+  border: 2px solid lightgray;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.comment {
+  display: block;
+  margin-top: 20px;
+  background-color: lightgreen;
+}
+.comments-holder {
+  background-color: rgb(237, 243, 244);
+  padding: 20px;
+}
+.show-comment {
+  color: rgb(101, 100, 100);
+  border-bottom: 2px solid lightslategray;
+  padding: 20px;
+  font-size: 36px;
+}
+.enlist-comment {
+  color: rgb(103, 102, 102);
+  font-size: 22px;
+}
+.comment-btn-holder {
+  display: flex;
+  border-bottom: 1px dotted lightslategray;
+  padding-bottom: 10px;
+}
+.comment-content-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.comment-content-holder i {
+  font-size: 30px;
+}
+.comment-content-holder a {
+  background-color: transparent;
+}
+.date {
+  margin-right: 30px;
+  color: rgb(145, 71, 14);
+}
+textarea {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+}
+input {
+  display: block;
+  margin: 20px 0;
+  background-color: lightpink;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: lightgray;
+  color: red;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+footer p {
+  font-size: 30px;
+  color: gray;
+}

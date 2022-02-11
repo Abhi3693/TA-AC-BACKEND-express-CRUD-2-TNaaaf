@@ -1,0 +1,55 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+.container {
+  text-align: center;
+  margin: 100px 0;
+}
+h1 {
+  color: rgb(7, 76, 150);
+  font-size: 50px;
+  font-weight: 500;
+  padding: 20px;
+}
+button {
+  background-color: gray;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 2px brown;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 186, 237);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.logo {
+  color: rgb(44, 44, 179);
+  font-size: 50px;
+  margin-left: 50px;
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+footer p {
+  font-size: 30px;
+  color: gray;
+}
