@@ -1,0 +1,76 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+form {
+  width: 50%;
+  margin: 50px auto;
+  border: 5px solid rgb(76, 1, 113);
+  padding: 30px 100px;
+  border-radius: 15px;
+}
+input {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: block;
+  padding: 5px;
+}
+button {
+  width: 100%;
+  background-color: gray;
+  display: block;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.btn {
+  width: fit-content;
+}
+textarea {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 22px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgba(23, 23, 189, 0.523);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.logo {
+  color: rgb(44, 44, 179);
+  font-size: 50px;
+  margin-left: 50px;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 186, 237);
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+footer p {
+  font-size: 30px;
+  color: gray;
+}
+.back {
+  padding: 20px;
+  color: rgb(49, 198, 113);
+}

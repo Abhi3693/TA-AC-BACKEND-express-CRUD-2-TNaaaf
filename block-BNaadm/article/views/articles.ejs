@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="stylesheet" href="/stylesheets/articles.css" />
+  </head>
+  <body>
+    <%- include('partials/header') -%>
+    <div class="container">
+      <section>
+        <h1>Listing Articles</h1>
+        <h3>No of Articles: <%=articles.length%></h3>
+        <div class="allUsers">
+          <% articles.forEach((article)=>{ %>
+          <div class="userHolder">
+            <div class="title-holder">
+              <span>title:</span>
+              <h2><%= article.title %></h2>
+            </div>
+            <div>
+              <a class="readMore" href="/articles/<%= article._id %> "
+                >Read More</a
+              >
+            </div>
+          </div>
+          <% }) %>
+        </div>
+      </section>
+    </div>
+    <%- include('partials/footer') -%>
+  </body>
+</html>
