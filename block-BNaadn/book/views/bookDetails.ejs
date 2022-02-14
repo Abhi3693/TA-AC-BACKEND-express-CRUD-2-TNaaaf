@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/bookDetails.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+  <%- include('partials/header') -%>
+  <div class="container">
+    <ul>
+      <li><img src="<%=book.cover_image %>" alt="cover-img"></li>
+      <li class="title"> <%=book.title %></li>
+      <li class="pages"> <%=book.pages %></li>
+      <li class="publication"> <%=book.publication %></li>
+      <li class="category"> <%=book.category %></li>
+      <li class="author"> <%=book.name %></li>
+      <li class="author"> <%=book.email %></li>
+      <li class="author"> <%=book.country %></li>
+      <li class="summary"> <%=book.summary %></li>
+    </ul>
+    <div class="update-Btn">
+      <a class="edit" href="/books/<%=book._id%>/edit">Edit</a>
+      <a class="delete" href="/books/<%=book._id%>/delete">Delete</a>
+    </div>
+  </div>
+  <%- include('partials/footer') -%>
+</body>
+</html>
