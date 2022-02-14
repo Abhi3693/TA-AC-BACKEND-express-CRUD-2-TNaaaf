@@ -1,0 +1,95 @@
+.header{
+  background-color: rgb(201, 231, 240);
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(29, 132, 242);
+}
+body{
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.social-media{
+  display: flex;
+  gap: 30px;
+}
+.social-media a{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  font-size: 30px;
+  gap: 20px;
+}
+.btn-holder{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0 50px;
+}
+.btn-holder a{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  padding: 10px;
+  background-color: khaki;
+  border-radius: 10px;
+}
+.footer{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgb(239, 225, 216);
+}
+ul{
+  list-style-type:none;
+}
+img{
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+li{
+  margin-bottom: 30px;
+}
+.title{
+  color: rgb(29, 118, 174);
+  font-size: 36px;
+  font-weight: 700;
+}
+.category{
+  color: rgb(21, 106, 186);
+  font-size: 26px;
+}
+.author{
+  color: rgb(21, 106, 186);
+  font-size: 26px;
+}
+.summary, .pages, .publication{
+  font-size: 18px;
+}
+.container{
+  width: 90%;
+  margin : 50px auto;
+}
+.update-Btn{
+  display: flex;
+}
+.edit, .delete{
+  background-color: rgb(17, 115, 206);
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.delete{
+  background-color: rgb(216, 54, 54);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/addBook.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <%- include('partials/header') -%>
+  <form action="/books/<%=book._id%>/edit" method="POST">
+    <h1>Update Book Details</h1>
+    <input type="text" name="title" placeholder="Enter Title of Book" value="<%=book.title%>">
+    <input type="text" name="pages" placeholder="Enter Title of Book" value="<%=book.pages%>">
+    <input type="text" name="publication" placeholder="Enter Publication of Book" value="<%=book.publication%>">
+    <input type="text" name="cover_image" placeholder="Enter Title of Book" value="<%=book.cover_image%>">
+    <textarea name="summary" id="" cols="30" rows="5" placeholder="Enter Summary of Book">value="<%=book.summary%>"</textarea>
+    <input type="submit" value="Update Book">
+  </form>
+  <%- include('partials/footer') -%>
+
+</body>
+</html>
