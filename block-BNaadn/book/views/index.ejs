@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <%- include('partials/header') -%>
+    <h2>Find Book by Category</h>
+    <form action="/books" method="GET">
+      <select name="category" id="category">
+        <option value="fiction">Fiction</option>
+        <option value="adventure">Adventure</option>
+        <option value="technology">Technology</option>
+        <option value="motivation">Motivation</option>
+      </select>
+      <input class="submit" type="submit" name="" id="" value="submit">
+    </form>
+
+    <h2>Find Book by Author name</h2>
+    <form action="/books" method="GET">
+      <input type="text" name="name" ,id="name">
+    </form>
+    <%- include('partials/footer') -%>
+  </body>
+</html>
